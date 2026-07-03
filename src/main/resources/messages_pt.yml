@@ -1,0 +1,59 @@
+config:
+  prefix: "§b[ChunkTowns] "
+
+erros:
+  mundo-bloqueado: "§cVocê só pode modificar blocos no mundo de recursos ou dentro da sua própria cidade!"
+  terreno-alheio: "§cEste terreno pertence a outra cidade."
+  limite-atingido: "§cVocê já atingiu o limite máximo de cidades."
+  muito-perto: "§cMuito perto de outra cidade! Afaste-se pelo menos 3 chunks."
+  nome-invalido: "§cO nome deve ter entre 3 e 16 caracteres. Digite novamente ou 'cancelar'."
+  processo-cancelado: "§cCriação cancelada."
+  sem-dinheiro: "§cVocê não tem dinheiro suficiente! Custo: {custo}$"
+  vault-nao-encontrado: "§cO sistema de economia está ativado na configuração, mas o plugin Vault não foi encontrado no servidor."
+  nao-e-dono: "§cVocê não é o dono desta cidade."
+
+cidade:
+  digite-o-nome: "§aDigite o nome da sua nova cidade no chat para começar!"
+  criada-sucesso: "§aA cidade §e{nome} §afoi fundada! Os limites foram demarcados com ouro."
+  deletada-sucesso: "§aA cidade §e{nome} §afoi deletada e o terreno original foi limpo!"
+  bordas-alteradas: "§eA visualização dos limites da chunk foi alternada!"
+  chunk-adicionada: "§aEste pedaço de terra foi adicionado com sucesso à sua cidade!"
+
+menu:
+  titulo: "Suas Cidades"
+  titulo-config: "Gestão: {cidade}"
+
+  botao-item-nome: "§b§l🏙️ {cidade}"
+  botao-item-lore:
+    - "§7Mundo: §e{mundo}"
+    - "§7Chunks Adquiridas: §e{tamanho}"
+    - ""
+    - "§aClique para gerenciar remotamente."
+
+  botao-criar-nome: "§a§l[+] Fundar Cidade"
+  botao-criar-lore:
+    - "§7Clique para fundar uma nova"
+    - "§7cidade na sua chunk atual."
+    - ""
+    - "§7Custo: §a{custo}$"
+    - "§eCidades: {atual}/5"
+
+  botao-deletar-nome: "§c§lDestruir Cidade"
+  botao-deletar-lore:
+    - "§7Clique aqui para apagar a cidade."
+    - "§4§lAVISO: §cAs demarcações de ouro"
+    - "§cserão desfeitas do mapa!"
+
+  botao-bordas-nome: "§e§lVer/Esconder Limites"
+  botao-bordas-lore:
+    - "§7Liga ou desliga as colunas de"
+    - "§7ouro e glowstone nos cantos"
+    - "§7desta chunk do mapa."
+
+  botao-expandir-nome: "§a§lExpandir Território"
+  botao-expandir-lore:
+    - "§7Clique para comprar e adicionar a"
+    - "§7chunk em que você está pisando"
+    - "§7para esta cidade."
+    - ""
+    - "§7Custo: §a{custo}$"

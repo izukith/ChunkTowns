@@ -1,0 +1,20 @@
+# ==========================================
+#         ChunkTowns - Configuration
+# ==========================================
+
+# Arquivo de idioma padrão. O plugin tentará carregar "messages_pt.yml"
+idioma: "pt"
+
+# Mundos onde o sistema de proteção e claims vai funcionar.
+mundos-ativados:
+  - "world"
+
+# Configurações gerais do sistema de cidades
+configurações:
+  raio-distancia-chunks: 3
+
+# Sistema de Economia Opcional (Requer Vault se ativado)
+economia:
+  ativar-sistema-de-dinheiro: true
+  preco-criar-cidade: 1000.0
+  preco-expandir-chunk: 500.0

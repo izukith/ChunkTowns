@@ -1,0 +1,12 @@
+name: ChunkTowns
+version: 1.0
+main: me.izuki.ChunkTowns.ChunkTowns
+api-version: 1.20
+description: Sistema elegante de gerenciamento de claims por chunks para SMP.
+commands:
+  cidade:
+    description: Abre o menu principal de cidades.
+    aliases: [city, town, claim]
+  deletarcidade:
+    description: Deleta a cidade da chunk atual e reseta o mapa.
+    aliases: [deletecity, unclaim]
